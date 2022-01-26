@@ -1,7 +1,7 @@
 const hup = document.getElementById("hup");
 hup.addEventListener("click",function(event){
     event.preventDefault();
-    var url = "http://hp-api.herokuapp.com/api/characters/house/hufflepuff";
+    var url = "https://hp-api.herokuapp.com/api/characters/house/hufflepuff";
     fetch(url,{
       method:"GET"
     }).then(function(response) {
