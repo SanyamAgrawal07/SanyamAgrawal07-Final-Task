@@ -1,7 +1,7 @@
 const sly = document.getElementById("sly");
 sly.addEventListener("click",function(event){
     event.preventDefault();
-    var url = "http://hp-api.herokuapp.com/api/characters/house/slytherin";
+    var url = "https://hp-api.herokuapp.com/api/characters/house/slytherin";
     fetch(url,{
       method:"GET"
     }).then(function(response) {
