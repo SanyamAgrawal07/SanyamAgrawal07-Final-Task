@@ -1,7 +1,7 @@
 const rav = document.getElementById("rav");
 rav.addEventListener("click", function (event) {
   event.preventDefault();
-  var url = "http://hp-api.herokuapp.com/api/characters/house/ravenclaw";
+  var url = "https://hp-api.herokuapp.com/api/characters/house/ravenclaw";
   fetch(url, {
     method: "GET",
   })
