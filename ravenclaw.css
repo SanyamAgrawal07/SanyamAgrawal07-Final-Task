@@ -1,0 +1,38 @@
+body {
+  background-image: url(rav_diadem.jpg);
+  background-size: 1263.3px 1500px;
+  background-repeat: no-repeat;
+  width: 1263.3px;
+  height: 750px;
+  color: #1520a6;
+  z-index: 1;
+}
+
+h2 {
+  color: lightcyan;
+  z-index: 1;
+}
+
+#rav {
+  background: transparent;
+  outline: none;
+  border: none;
+  z-index: 1;
+}
+
+table,
+th,
+td {
+  border: 2px solid white;
+  margin-left: auto;
+  margin-right: auto;
+  color: yellow;
+  font-size: 1.17em;
+  z-index: 1;
+}
+#vid {
+  position: absolute;
+  height: 750px;
+  width: 1280px;
+  z-index: -1;
+}

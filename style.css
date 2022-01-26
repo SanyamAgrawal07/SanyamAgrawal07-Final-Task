@@ -1,0 +1,70 @@
+body {
+  background-image: url(hogwarts_ceiling.png);
+  background-repeat: no-repeat;
+  background-size: 1280px 1250px;
+  height: 750px;
+  width: 1280px;
+  color: lightcyan;
+}
+h1 {
+  text-align: center;
+  font-size: 2.3em;
+  color: lightskyblue;
+  font-family: fantasy;
+}
+.movie {
+  font-size: 1.2em;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.butt {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: transparent;
+  outline: none;
+  border: none;
+}
+.house {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.logo {
+  height: 115px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+}
+/* #g {
+  background: transparent;
+  outline: none;
+  border: none;
+}
+#s {
+  background: transparent;
+  outline: none;
+  border: none;
+}
+#h {
+  background: transparent;
+  outline: none;
+  border: none;
+}
+#r {
+  background: transparent;
+  outline: none;
+  border: none;
+} */
+#gryf {
+  width: 120px;
+}
+#hup {
+  width: 120px;
+}

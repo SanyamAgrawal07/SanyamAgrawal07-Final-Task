@@ -1,0 +1,46 @@
+body {
+  background-image: url(gryf_sword.jpg);
+
+  background-size: 1280px 1500px;
+  background-repeat: no-repeat;
+  color: lightskyblue;
+  z-index: 1;
+}
+
+h2 {
+  color: lightcyan;
+  z-index: 1;
+}
+
+#gry {
+  background: transparent;
+  outline: none;
+  border: none;
+  z-index: 1;
+}
+
+table,
+th,
+td {
+  border: 2px solid #52b2bf;
+  margin-left: auto;
+  margin-right: auto;
+  color: lightskyblue;
+  z-index: 1;
+}
+#vid {
+  position: absolute;
+  height: 750px;
+  width: 1280px;
+  z-index: -1;
+}
+#img {
+  height: 750px;
+  width: 1280px;
+}
+
+/* .tab{
+    border: 2px lightsalmon;
+    margin-left: auto;
+    margin-right: auto;  
+} */

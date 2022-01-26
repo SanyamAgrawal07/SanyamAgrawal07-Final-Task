@@ -1,0 +1,38 @@
+body {
+  background-image: url(sly_basilisk.jpg);
+  background-size: 1280px 1520px;
+  background-repeat: no-repeat;
+  width: 1280px;
+  height: 1000px;
+  color: #39ff14;
+  z-index: 1;
+}
+
+h2 {
+  color: greenyellow;
+  z-index: 1;
+}
+
+#sly {
+  background: transparent;
+  outline: none;
+  border: none;
+  z-index: 1;
+}
+
+table,
+th,
+td {
+  border: 2px solid darkgreen;
+  margin-left: auto;
+  margin-right: auto;
+  color: #39ff14;
+  z-index: 1;
+}
+
+#vid {
+  position: absolute;
+  height: 750px;
+  width: 1280px;
+  z-index: -1;
+}

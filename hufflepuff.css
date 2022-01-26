@@ -1,0 +1,38 @@
+body {
+  background-image: url(hup_cup.jpg);
+  background-size: 1263.3px 1000px;
+  background-repeat: no-repeat;
+  width: 1263.3px;
+  height: 1000px;
+  color: red;
+  z-index: 1;
+}
+
+h2 {
+  color: greenyellow;
+  z-index: 1;
+}
+
+#hup {
+  background: transparent;
+  outline: none;
+  border: none;
+  z-index: 1;
+}
+
+table,
+th,
+td {
+  border: 2px solid #ff5f1f;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  color: red;
+}
+
+#vid {
+  position: absolute;
+  height: 750px;
+  width: 1280px;
+  z-index: -1;
+}
