@@ -1,7 +1,7 @@
 const gry = document.getElementById("gry");
 gry.addEventListener("click",function(event){
     event.preventDefault();
-    var url = "http://hp-api.herokuapp.com/api/characters/house/gryffindor";
+    var url = "https://hp-api.herokuapp.com/api/characters/house/gryffindor";
     fetch(url,{
       method:"GET"
     }).then(function(response) {
